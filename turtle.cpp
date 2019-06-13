@@ -42,7 +42,7 @@ int main() {
 	initArray(grid, SIZE);
 
 	ofstream outfile;
-	outfile.open("E:\\Archive\\School\\Computer Science\\Cpp Files\\Text\\turtlePicture.txt"); /*C:\\Users\\nolan\\OneDrive\\School\\Computer Science\\Cpp Files\\turtlePicture.txt*/
+	outfile.open("turtlePicture.txt");
 	if (!outfile)
 	{
 		cout << "Error opening output file..." << endl;
@@ -50,7 +50,7 @@ int main() {
 	}
 
 	ifstream infile;
-	infile.open("E:\\Archive\\School\\Computer Science\\Cpp Files\\Text\\turtleCommands.txt"); /*C:\\Users\\nolan\\OneDrive\\School\\Computer Science\\Cpp Files\\turtleCommands.txt*/
+	infile.open("turtleCommands.txt");
 	if (!infile)
 	{
 		cout << "Error opening file..." << endl;
